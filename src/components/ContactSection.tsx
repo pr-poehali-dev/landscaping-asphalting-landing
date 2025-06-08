@@ -9,10 +9,10 @@ const ContactSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Готовы начать работу?
+              Проверьте нас по делу
             </h2>
             <p className="text-xl text-slate-300 mb-8">
-              Свяжитесь с нами любым удобным способом
+              Выезд на замер завтра. Смета в течение дня.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -20,8 +20,8 @@ const ContactSection = () => {
                 size="lg"
                 className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 text-lg"
               >
-                <Icon name="MessageSquare" className="mr-2" />
-                Написать в WhatsApp
+                <Icon name="Calculator" className="mr-2" />
+                Рассчитать стоимость за 15 минут
               </Button>
               <Button
                 variant="outline"
@@ -38,15 +38,15 @@ const ContactSection = () => {
             <Card className="bg-slate-800 border-slate-700">
               <CardContent className="p-6 text-center">
                 <Icon
-                  name="MapPin"
+                  name="Clock"
                   size={32}
                   className="text-orange-500 mx-auto mb-3"
                 />
-                <h3 className="font-semibold mb-2 text-white">Адрес</h3>
+                <h3 className="font-semibold mb-2 text-white">Быстрый выезд</h3>
                 <p className="text-slate-300 text-sm">
-                  Работаем по всей области
+                  Замер объекта — завтра
                   <br />
-                  Выезд на объект бесплатно
+                  Смета готова за день
                 </p>
               </CardContent>
             </Card>
@@ -54,15 +54,17 @@ const ContactSection = () => {
             <Card className="bg-slate-800 border-slate-700">
               <CardContent className="p-6 text-center">
                 <Icon
-                  name="Clock"
+                  name="Handshake"
                   size={32}
                   className="text-orange-500 mx-auto mb-3"
                 />
-                <h3 className="font-semibold mb-2 text-white">Режим работы</h3>
+                <h3 className="font-semibold mb-2 text-white">
+                  По рекомендации
+                </h3>
                 <p className="text-slate-300 text-sm">
-                  Пн-Пт: 8:00 - 18:00
+                  80% клиентов приходят
                   <br />
-                  Сб-Вс: 9:00 - 16:00
+                  от других заказчиков
                 </p>
               </CardContent>
             </Card>
@@ -74,11 +76,11 @@ const ContactSection = () => {
                   size={32}
                   className="text-orange-500 mx-auto mb-3"
                 />
-                <h3 className="font-semibold mb-2 text-white">Связь</h3>
+                <h3 className="font-semibold mb-2 text-white">Прямая связь</h3>
                 <p className="text-slate-300 text-sm">
-                  WhatsApp, Telegram
+                  Говорите сразу с тем,
                   <br />
-                  Отвечаем быстро, 24/7
+                  кто будет делать работу
                 </p>
               </CardContent>
             </Card>
@@ -86,8 +88,8 @@ const ContactSection = () => {
 
           <div className="text-center mt-12 pt-8 border-t border-slate-700">
             <p className="text-slate-400 text-sm">
-              © 2024 Асфальтирование и благоустройство под ключ. Все права
-              защищены.
+              © 2024 Асфальтирование коммерческих объектов под ключ. Техника,
+              люди, контроль.
             </p>
           </div>
         </div>

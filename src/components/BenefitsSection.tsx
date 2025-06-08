@@ -4,34 +4,37 @@ import Icon from "@/components/ui/icon";
 const BenefitsSection = () => {
   const benefits = [
     {
-      icon: "UserCheck",
-      title: "На объекте — реальный человек",
-      description: "Не менеджер в красивой рубашке, а опытный прораб",
+      icon: "Users",
+      title: "Работаете с людьми, не с фирмой",
+      description:
+        "Никаких менеджеров в костюмах — сразу говорите с тем, кто будет делать",
     },
     {
       icon: "CreditCard",
-      title: "Без предоплаты",
-      description: "Оплата только по факту выполненной работы",
+      title: "Оплата по факту",
+      description:
+        "Начинаем без предоплаты — платите только за готовый результат",
     },
     {
       icon: "Gift",
-      title: "Бонусы сверх договора",
-      description: "Всегда делаем чуть больше — отсыпка, уборка в подарок",
+      title: "Делаем чуть больше обещанного",
+      description: "Отсыпка, расширение, уборка — бонусом, так у нас принято",
     },
     {
-      icon: "Clock",
-      title: "Соблюдаем сроки",
-      description: "Своя техника и проверенная бригада — никаких срывов",
+      icon: "Truck",
+      title: "Всё своё — техника и люди",
+      description: "Никаких «партнёров» и подрядчиков — отвечаем за всё сами",
     },
     {
-      icon: "Shield",
-      title: "Гарантия на работы",
-      description: "Отвечаем за качество, исправляем недочёты бесплатно",
+      icon: "FileCheck",
+      title: "Смета как договор",
+      description:
+        "Фиксируем всё до начала — никаких «всплыло, надо доплатить»",
     },
     {
       icon: "MessageCircle",
-      title: "Связь 24/7",
-      description: "WhatsApp, телефон — отвечаем быстро, отчитываемся честно",
+      title: "Отчёты без отмазок",
+      description: "Спросите «как дела?» — получите честный ответ с фото",
     },
   ];
 
@@ -40,13 +43,13 @@ const BenefitsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <Badge variant="secondary" className="mb-4">
-            Наши преимущества
+            Почему выбирают нас
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900">
-            Вы не будете нас контролировать
+            Работаем с сильными людьми — с характером и без пустых обещаний
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Мы сами всё покажем и расскажем. Работаем честно, как для себя.
+            Мы такие же, как вы — с характером, но по совести.
           </p>
         </div>
 
